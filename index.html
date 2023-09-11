@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Samuca</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<header class="bg-primary text-white text-center py-4">
+    <h1>Página do Samuca</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Quem é o Samuca</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sua Família</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Seu Trabalho</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="container-fluid">
+    <section>
+        <h2>Hobby</h2>
+        <p>Eu gosto de cozinhar professora, acho uma delícia</p>
+    </section>
+
+    <section>
+        <h2>Feijoada</h2>
+        <p>Um dia desse fiz feijoada para 60 pessoas em casa</p>
+    </section>
+
+    <section>
+        <h2>Tropeiro</h2>
+        <p>Outro prato que gosto de cozinha e de comer também rsrsrsrs.</p>
+    </section>
+</div>
+
+<footer class="bg-dark text-white text-center py-3">
+    &copy; <span id="anoatual"></span> Todos os meus direitos nessa página não estão reservados.
+</footer>
+
+<script>
+    document.getElementById("anoatual").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
